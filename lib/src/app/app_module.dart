@@ -20,7 +20,7 @@ class AppModule extends ModuleWidget {
   static Inject get to => Inject<AppModule>.of();
 
   static Map<String, WidgetBuilder> routes(BuildContext context) => {
-    '/': (context) => MyHomePage(title: 'Flutter Demo Home Page'),
+    '/': (context) => MyHomePage(title: ''),
     '/splash': (context) => SplashScreen()
   };
 }
